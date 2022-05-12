@@ -3,8 +3,9 @@ package com.example.solidprinciplesjava.b_open_closed_principle;
 import java.util.List;
 
 /**
- * This class does not have the main responsibility
- * because there are two functionalities here.
+ * This class does not have the open closed principle
+ * because there are two ways to calculate the area and if I add another shape
+ * we need to add in this function sum how calculate the area for another shape.
  */
 public class AreaCalculator {
 
@@ -17,11 +18,11 @@ public class AreaCalculator {
             if (shape instanceof Circle) {
                 sum += Math.PI * Math.pow(((Circle) shape).getRadius(), 2);
             }
+            if (shape instanceof Cube) {
+
+            }
         }
         return sum;
     }
 
-    public String json(List<Object> shapes) {
-        return "{sum: %s}".formatted(sum(shapes));
-    }
 }

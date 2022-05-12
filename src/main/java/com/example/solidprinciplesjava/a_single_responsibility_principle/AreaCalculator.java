@@ -3,7 +3,7 @@ package com.example.solidprinciplesjava.a_single_responsibility_principle;
 import java.util.List;
 
 /**
- * This class does not have the main responsibility
+ * This class does not have the single responsibility principle
  * because there are two functionalities here.
  *
  * For fix this, we should separate the function json in other class.
