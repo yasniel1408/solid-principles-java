@@ -7,6 +7,9 @@ import java.util.List;
  * because there are two functionalities here.
  *
  * For fix this, we should separate the function json in other class.
+ *
+ * Each class should have only one sole purpose,
+ * and not be filled with excessive functionality.
  */
 public class AreaCalculator {
 

@@ -9,6 +9,10 @@ import java.util.List;
  *
  * To solve the problem, we need to send the responsibility for calculating
  * the area of the AreaCalculate class to each figure
+ *
+ * Classes should be open for extensions, closed for modification.
+ * In other words, you should not have to rewrite an existing class
+ * for implementing new features.
  */
 public class AreaCalculator {
 

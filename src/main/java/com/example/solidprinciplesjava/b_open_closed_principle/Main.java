@@ -13,9 +13,7 @@ public class Main {
         List<Object> shapes = List.of(circle, square);
 
         double sum = areaCalculator.sum(shapes);
-        String json = areaCalculator.json(shapes);
 
         System.out.println("sum: " + sum);
-        System.out.println("sum: " + json);
     }
 }
