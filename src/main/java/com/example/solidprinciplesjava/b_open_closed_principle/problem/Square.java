@@ -1,4 +1,4 @@
-package com.example.solidprinciplesjava.b_open_closed_principle;
+package com.example.solidprinciplesjava.b_open_closed_principle.problem;
 
 public class Square {
     private final int length;

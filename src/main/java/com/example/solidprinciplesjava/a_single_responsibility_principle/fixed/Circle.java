@@ -1,4 +1,4 @@
-package com.example.solidprinciplesjava.a_single_responsibility_principle;
+package com.example.solidprinciplesjava.a_single_responsibility_principle.fixed;
 
 public class Circle {
     private final int radius;

@@ -1,4 +1,4 @@
-package com.example.solidprinciplesjava.b_open_closed_principle;
+package com.example.solidprinciplesjava.b_open_closed_principle.fixed;
 
 
 import java.util.List;
@@ -9,8 +9,10 @@ public class Main {
 
         Circle circle = new Circle(10);
         Square square = new Square(10);
+        Cube cube = new Cube();
+        Rectangle rectangle = new Rectangle();
 
-        List<Object> shapes = List.of(circle, square);
+        List<IShape> shapes = List.of(circle, square, cube, rectangle);
 
         double sum = areaCalculator.sum(shapes);
 
